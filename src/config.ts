@@ -1,17 +1,26 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Huy Nguyen",
+  title: "Undergraduated Software Engineer students",
+  description: "Portfolio website of XhuyZ",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "xhuyzdev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/nguyen-van-huy-2337a431a/",
+    github: "https://github.com/XhuyZ",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Software Engineering student passionate about Linux and deeply embedded in its ecosystem. With a solid grasp of command-line tools and a broad understanding of software and systems, I thrive on exploring the depths of software development lifecycle and system design.",
+  skills: [
+    "AspNet",
+    "Node.js",
+    "Springboot",
+    "React.js",
+    "Flutter",
+    "Kotlin",
+    "Linux",
+    "Docker",
+    "Jenkins",
+  ],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
