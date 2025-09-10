@@ -1,11 +1,10 @@
 ---
 import { siteConfig } from "../config";
-
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasBlogs = siteConfig.blogs && siteConfig.blogs.length > 0;
 ---
-
 <header
   id="header"
   class="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300"
@@ -28,6 +27,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Projects
+            </a>
+          </li>
+        )
+      }
+      {
+        hasBlogs && (
+          <li>
+            <a
+              href="#blog"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Blogs
             </a>
           </li>
         )
@@ -59,7 +70,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     </ul>
   </nav>
 </header>
-
 <script>
   window.addEventListener("scroll", () => {
     const header = document.getElementById("header");
@@ -70,7 +80,6 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     }
   });
 </script>
-
 <style>
   html {
     scroll-behavior: smooth;
